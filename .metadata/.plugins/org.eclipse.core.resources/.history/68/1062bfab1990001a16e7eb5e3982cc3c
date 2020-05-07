@@ -1,0 +1,30 @@
+package com.ict.edu;
+
+public class Ex04 {
+	public static void main(String[] args) {
+		// switch ~ case : if문과 같이 조건문
+		// if는 조건식이 boolean형이다. 즉, 비교연산, 논리연산, boolean형 사용
+		// switch문은 인자값이 byte, short , int ,char , String 일 때 사용
+		//
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}
