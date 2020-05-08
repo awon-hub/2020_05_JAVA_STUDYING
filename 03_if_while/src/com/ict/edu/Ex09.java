@@ -49,6 +49,6 @@ public class Ex09 {
 		} while (k4<10);
 		System.out.println();
 		
-		system.out.println("==================================";)
+		system.out.println("==================================");
 	}
 }
