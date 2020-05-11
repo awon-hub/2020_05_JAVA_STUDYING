@@ -2,15 +2,15 @@ package com.ict.edu;
 
 public class Ex09 {
 	public static void main(String[] args) {
-		//do ~while 문 : while 문과 같은 반복문
-		//초기식;
+		//do ~while 臾� : while 臾멸낵 媛숈� 諛섎났臾�
+		//珥덇린�떇;
 		//do{
-		//실행문;
-		//증감식;
-		//}while(조건식)
+		//�떎�뻾臾�;
+		//利앷컧�떇;
+		//}while(議곌굔�떇)
 		
 		
-		// 0 -10 까지 출력.
+		// 0 -10 源뚯� 異쒕젰.
 		int k1 = 0;
 		do {
 			System.out.print(k1 + " " );
@@ -18,7 +18,7 @@ public class Ex09 {
 		} while (k1<11);
 		System.out.println();
 		
-		// 0-10  짝수만 출력
+		// 0-10  吏앹닔留� 異쒕젰
 		int k2 = 0;
 		do { 
 			if (k2 %2 ==0) {
@@ -30,18 +30,18 @@ public class Ex09 {
 		System.out.println();
 		
 		System.out.println();
-		// 0 -10 누적합
-		int sum = 0; // 이전 값을 기억시킬 변수
+		// 0 -10 �늻�쟻�빀
+		int sum = 0; // �씠�쟾 媛믪쓣 湲곗뼲�떆�궗 蹂��닔
 		int k3 = 0;
 		do {
 			sum = sum + k3;
 			
 			k3++;
 		} while (k3 < 11);
-		System.out.println("누적합 : " + sum);
+		System.out.println("�늻�쟻�빀 : " + sum);
 		System.out.println();
 		
-		//5단 출력
+		//5�떒 異쒕젰
 		int k4 = 1;
 		do {
 			System.out.println("5 * " + k4 + " = " + (5*k4));
@@ -49,6 +49,6 @@ public class Ex09 {
 		} while (k4<10);
 		System.out.println();
 		
-		system.out.println("==================================");
+		System.out.println("==================================");
 	}
 }

@@ -21,14 +21,14 @@ public class Ex06 {
 		for (int i = 2; i < 10; i++) {
 			 System.out.println(i + "단"); 
 			for (int j = 1; j < 10; j++) {
-				System.out.print(i + "*" + j + "=" + (i*j)+" ");
+				System.out.print(i + "*" + j + "=" + (i*j)+" "); //출력방식만 바뀜
 			}
 			System.out.println();
 		}
 		System.out.println("===================");
 		for (int i = 1; i < 10; i++) {
 			for (int j = 2; j < 10; j++) {
-				System.out.print(j + "*" + i + "=" + (i*j)+" ");
+				System.out.print(j + "*" + i + "=" + (i*j)+" ");  // 1이 먼저 우선 출력됨. 가로로 
 			}
 			System.out.println();
 		}
