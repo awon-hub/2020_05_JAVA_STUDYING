@@ -31,6 +31,7 @@ public class Ex07 {
 		System.out.println(su[0]);
 		System.out.println(su[1]);
 		
+		//주소를 안다 = 길이를 안다.
 		
 		//다차원 고정길이 배열의 출력
 		for (int i = 0; i < su.length; i++) {
