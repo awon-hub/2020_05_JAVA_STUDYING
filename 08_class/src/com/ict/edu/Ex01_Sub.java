@@ -8,6 +8,7 @@ public class Ex01_Sub extends Ex01_Sup{
 	int age = 13;
 
 	public Ex01_Sub() {
+		super();//생략되어 있다.
 		System.out.println("자식클래스 생성자 :" + this);
 	}
 	public void play() {
@@ -26,12 +27,11 @@ public class Ex01_Sub extends Ex01_Sup{
 		System.out.println(this.age); // 13 전역 내꺼
 		System.out.println(super.age); // 57 부모꺼 
 		
-	public void play2() {
+	public void play1() {
 		//private은 상속이어도 접근 안됨.
 		//System.out.println(dog);
 		System.out.println(GENDER);
-		System.out.println(car);
-	}
+		System.out.println(car);}
 		
 	}
 	

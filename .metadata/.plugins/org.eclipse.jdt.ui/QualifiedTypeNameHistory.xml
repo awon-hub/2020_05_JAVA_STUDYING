@@ -22,4 +22,11 @@
 <fullyQualifiedTypeName name="com.ict.edu2.Mp3Phone"/>
 <fullyQualifiedTypeName name="com.ict.edu2.GamePhone"/>
 <fullyQualifiedTypeName name="com.ict.edu2.DcaPhone"/>
+<fullyQualifiedTypeName name="com.ict.eud5.Animal"/>
+<fullyQualifiedTypeName name="com.ict.edu7.Unit"/>
+<fullyQualifiedTypeName name="com.ict.edu7.Protoss"/>
+<fullyQualifiedTypeName name="com.ict.edu7.Zerg"/>
+<fullyQualifiedTypeName name="com.ict.edu7.Terran"/>
+<fullyQualifiedTypeName name="com.ict.edu8.Ex01"/>
+<fullyQualifiedTypeName name="com.ict.edu9.Main"/>
 </qualifiedTypeNameHistroy>
