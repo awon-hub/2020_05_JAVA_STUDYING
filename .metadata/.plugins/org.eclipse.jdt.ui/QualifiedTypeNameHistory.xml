@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.util.Comparator"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="com.ict.edu.Ex03"/>
 <fullyQualifiedTypeName name="com.ict.edu.Ex05"/>
 <fullyQualifiedTypeName name="com.ict.edu.Ex09"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
 <fullyQualifiedTypeName name="com.ict.edu.Ex11"/>
 <fullyQualifiedTypeName name="com.ict.edu.Ex13"/>
@@ -29,4 +27,20 @@
 <fullyQualifiedTypeName name="com.ict.edu7.Terran"/>
 <fullyQualifiedTypeName name="com.ict.edu8.Ex01"/>
 <fullyQualifiedTypeName name="com.ict.edu9.Main"/>
+<fullyQualifiedTypeName name="com.ict.edu01.Ex01"/>
+<fullyQualifiedTypeName name="com.ict.edu01.Ex01.Lesson"/>
+<fullyQualifiedTypeName name="com.ict.edu01.Ex05.Inner01"/>
+<fullyQualifiedTypeName name="com.ict.edu01.Ex05.Inner02"/>
+<fullyQualifiedTypeName name="com.ict.edu01.AbsTest"/>
+<fullyQualifiedTypeName name="com.ict.edu01.Abs"/>
+<fullyQualifiedTypeName name="com.ict.edu01.Test_B"/>
+<fullyQualifiedTypeName name="com.ict.edu01.Test_A.Test_C"/>
+<fullyQualifiedTypeName name="com.ict.edu01.K_land"/>
+<fullyQualifiedTypeName name="com.ict.edu01.I"/>
+<fullyQualifiedTypeName name="com.ict.edu01.Bumper_Car"/>
+<fullyQualifiedTypeName name="com.ict.edu01.Baseball"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+<fullyQualifiedTypeName name="com.ict.edu.Ex04"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
