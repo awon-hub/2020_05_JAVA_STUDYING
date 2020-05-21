@@ -2,21 +2,17 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.util.Comparator"/>
-<fullyQualifiedTypeName name="java.lang.Math"/>
-<fullyQualifiedTypeName name="com.ict.edu.Ex03"/>
 <fullyQualifiedTypeName name="com.ict.edu.Ex05"/>
 <fullyQualifiedTypeName name="com.ict.edu.Ex09"/>
 <fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
 <fullyQualifiedTypeName name="com.ict.edu.Ex11"/>
 <fullyQualifiedTypeName name="com.ict.edu.Ex13"/>
 <fullyQualifiedTypeName name="com.ict.edu.Ex14"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
 <fullyQualifiedTypeName name="com.ict.edu.Ex01_Sub"/>
 <fullyQualifiedTypeName name="com.ict.edu.Ex01_Sup"/>
-<fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="com.ict.edu2.Mp3Phone"/>
 <fullyQualifiedTypeName name="com.ict.edu2.GamePhone"/>
 <fullyQualifiedTypeName name="com.ict.edu2.DcaPhone"/>
@@ -41,6 +37,19 @@
 <fullyQualifiedTypeName name="com.ict.edu01.Baseball"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.Character"/>
+<fullyQualifiedTypeName name="com.ict.edu.Ex03"/>
+<fullyQualifiedTypeName name="com.ict.edu.Ex04_main"/>
 <fullyQualifiedTypeName name="com.ict.edu.Ex04"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.util.TreeSet"/>
+<fullyQualifiedTypeName name="java.util.Stack"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
 </qualifiedTypeNameHistroy>
