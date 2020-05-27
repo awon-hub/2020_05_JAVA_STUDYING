@@ -1,4 +1,4 @@
-package com.ict.edu2;
+package com.ict.edu02;
 //1. 바이트 스트림 1바이트 (기계중심)
 
 import java.io.File;

@@ -1,4 +1,4 @@
-package com.ict.edu;
+package com.ict.edu01;
 //파일만들기
 
 import java.io.File;

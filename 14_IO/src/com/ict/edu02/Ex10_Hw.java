@@ -1,4 +1,4 @@
-package com.ict.edu2;
+package com.ict.edu02;
 //복사 이동은 이것 뿐! // 패키지로 사용 가능하다. 
 
 import java.io.BufferedInputStream;
@@ -27,8 +27,10 @@ public class Ex10_Hw {
 		try {
 			fis = new FileInputStream(file1);
 			bis = new BufferedInputStream(fis);
+			
 			fos = new FileOutputStream(file2); // 얘도 버퍼 붙일수 있어. 
 			bos = new BufferedOutputStream(fos);
+			
 			int k = 0;
 			while ((k=bis.read())!= -1) {
 			bos.write(k);
@@ -40,8 +42,12 @@ public class Ex10_Hw {
 				try {
 					System.out.println("수고하셨습니다."); //다하면 찍는다. 용량 커서... 그래서 버퍼를 쓰지요!
 					
-					if (bis !=null) bis.close();
+					//순서를 따질때 이렇게 닫아야합니다. 버퍼닫고, 
 					if (bos !=null) bos.close();
+					if (bis !=null) bis.close();
+					
+					if (fos !=null) fos.close();
+					if (fis != null ) fis.close();
 				}catch (Exception e2) {
 				}
 				}finally {
