@@ -6,7 +6,7 @@ import java.io.File;
 //주요 생성자 : File(String 경로), File(String 상위 경로, String 하위경로)
 //				File(File 상위경로, String 하위경로)
 //주요 메소드 : 
-//- createNewFile : 파일 생성 : ture,
+//- createNewFile : 파일 생성 : true,
 //- mkdir() / mkdirs() : 디렉토리 생성
 //- delete() : 파일, 디렉토리 삭제
 // - isDirectory() : 디렉토리이면 true, 

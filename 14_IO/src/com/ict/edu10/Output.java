@@ -1,5 +1,6 @@
 package com.ict.edu10;
 
+//아웃풋 먼저죠? 메인  트라이캐치 트라이캐치. 위치를 잡아줘야겠죠.
 import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -10,7 +11,7 @@ import java.util.Scanner;
 public class Output {
 	public static void main(String[] args) {
 
-		String pathname = "C:" + File.separator + "study" + File.separator + "util" + File.separator + "io13.txt";
+		String pathname = "C:" + File.separator + "study" + File.separator + "util" + File.separator + "io14.txt";
 		File file = new File(pathname);
 
 		FileOutputStream fos = null;
@@ -25,7 +26,7 @@ public class Output {
 			bos = new BufferedOutputStream(fos);
 			oos = new ObjectOutputStream(bos);
 
-			ArrayList<VO> list = new ArrayList<VO>();
+			ArrayList<VO> list = new ArrayList<VO>(); // 어레이리스트는 for문 처럼 몇사람인지 몰라도 되서 편해! //VO 만 쌓이지? 자료형 VO
 			while (true) {
 				System.out.println("이름:");
 				String name = sc.next();
@@ -38,20 +39,22 @@ public class Output {
 
 				VO vo = new VO(name, kor, eng, math);
 				list.add(vo);
-				oos.writeObject(list);
-				oos.flush();
-				
-				System.out.println("계속하시겠습니까? y / n ");
-				char res = (char) sc.nextInt();
 
-				switch (res) {
-				case 'N': break;
-				case 'n': break;
-				}
+				System.out.println("계속하시겠습니까? y / n ");
+				/*
+				 * char res = (char) sc.nextInt();
+				 * 
+				 * switch (res) { case 'N': break; case 'n': break;
+				 */
+
+				String msg = sc.next();
+				if (msg.equalsIgnoreCase("n"))
+					break;
 
 			}
+			oos.writeObject(list); // 나가서 직렬화해야죠
+			oos.flush();
 
-			
 		} catch (Exception e) {
 			// TODO: handle exception
 		} finally {

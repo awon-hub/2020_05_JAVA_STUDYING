@@ -4,12 +4,12 @@ package com.ict.edu02;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-
+///아직기계대 기계하는거야. 
 public class Ex06 {
 	public static void main(String[] args) {
 		
 		//사진, 동영상, 음악은 1byte씩 무조건 처리.
-		// 먼저 읽어야 쓰지. 읽어야겠죠.
+		// 먼저 데이터를 읽어야 쓰지. 읽어야겠죠.
 		String pathname1 = // 읽는 위치
 				"C:" + File.separator + "study" + File.separator + "Util" + File.separator + "video.mp4";
 		File file1 = new File(pathname1);

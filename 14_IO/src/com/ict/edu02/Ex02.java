@@ -28,7 +28,7 @@ public class Ex02 {
 	FileOutputStream fos = null;  // 여기도 지역이야. 
 	File file = new File(pathname);
 	try {
-		//해당 파일이 없으면 만들고, 없으면 덮어쓰기 된다. true 붙으면 이어쓰기 된다. 
+		//해당 파일이 없으면 만들고, 있으면 덮어쓰기 된다. true 붙으면 이어쓰기 된다. 
 		//이어쓰기
 		fos = new FileOutputStream(file,true);  // 파일을 열었으면 finally 해. 첫 트라이 캐치.
 		fos.write(65); // 대문자 A

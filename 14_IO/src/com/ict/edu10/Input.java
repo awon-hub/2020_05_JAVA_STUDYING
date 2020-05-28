@@ -1,5 +1,5 @@
 package com.ict.edu10;
-
+//역직렬화
 import java.io.BufferedInputStream;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -13,7 +13,7 @@ public class Input {
 		
 	
 		String pathname 
-		= "C:" + File.separator + "study" + File.separator + "util" + File.separator + "io13.txt";
+		= "C:" + File.separator + "study" + File.separator + "util" + File.separator + "io14.txt";
 		File file = new File(pathname);
 		
 	
@@ -23,7 +23,7 @@ public class Input {
 	
 		
 		String savepath = // 쓰는위치
-				"C:" + File.separator + "study" + File.separator + "Util" + File.separator + "io13_전환.txt";
+				"C:" + File.separator + "study" + File.separator + "Util" + File.separator + "io14_전환.txt";
 		File file2 = new File(savepath);
 		
 		//문자 스트림을 쓰시지요.

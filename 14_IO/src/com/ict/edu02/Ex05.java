@@ -14,7 +14,7 @@ import java.io.IOException;
 //FileInputStream 주요 메소드. ( 인풋 스트림은 읽는거야 파일을 )
 //- read() :읽어라. 반환형 int 결과가 숫자 하나 로 나오는데 (아스키 코드로 나옴)
 //		   char로 형변환 해서 문자로 변경해야 함.
-// read(byte [] b) : int => 배열 크기를 지정해야함.  ( 아원: 랭스 처리?하나? )
+// read(byte [] b) : int => 배열 크기를 지정해야함.  ( 아원: 랭스 처리?하나? =>  for문 파일의 크기로 처리도 할 수 있어! )
 // 해결 방법! :     1byte씩 배열에 저장하고, 읽는 수 만큼 반환한다.
 
 //4. close() : open 된 Stream을 닫기 (finally 로 처리)
@@ -63,7 +63,7 @@ public class Ex05 {
 			//여기부터는 배열로 읽는 방법! 그럼 배열을 미리 만들어야겠네?  글자니까 이렇게 쓰는거야. 그림ㄴㄴ
 			
 			//byte[]b = new byte[20];
-			//byte[]b = new byte[(int)(file.length())];
+			//byte[]b = new byte[(int)(file.length())]; //롱형이거든 반환이.
 			//읽어서 byte [] b에 넣어준다. (배열 크기만큼만 넣어준다.)
 			//fis.read(b);
 			//for (byte k : b) {
